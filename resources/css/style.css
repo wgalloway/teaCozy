@@ -8,6 +8,10 @@ body {
   text-align: center;
 }
 
+.section {
+  margin: 30px 0;
+}
+
 
 /** Header  **/
 
@@ -52,6 +56,10 @@ nav span a {
 /** Main Content **/
 
 .main-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 63px;
 }
 
@@ -59,6 +67,7 @@ nav span a {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1200px;
   height: 700px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-size: cover;
@@ -84,12 +93,37 @@ nav span a {
 }
 
 .tea {
-  margin-right: 30px;
+  margin: 0 15px;
 }
 
 .tea img{
   height: 200px;
   width: 300px;
+}
+
+/*** Locations ***/
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+}
+
+.location {
+  display: flex;
+  margin-top: 15px;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.place {
+  width: 300px;
+  margin: 0 20px;
+  background-color: black;
 }
 
 /** Footer  **/
