@@ -55,6 +55,8 @@ nav span a {
 
 /** Main Content **/
 
+/*** Mission ***/
+
 .main-content {
   display: flex;
   flex-flow: column;
@@ -101,6 +103,7 @@ nav span a {
   width: 300px;
 }
 
+
 /*** Locations ***/
 
 .locations {
@@ -126,4 +129,14 @@ nav span a {
   background-color: black;
 }
 
+
 /** Footer  **/
+
+footer {
+  margin-top: -45px;
+}
+
+.copy-right {
+  margin-left: 20px;
+  text-align: left;
+}
